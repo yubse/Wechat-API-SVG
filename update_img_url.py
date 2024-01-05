@@ -2,14 +2,8 @@ import requests
 import re
 from bs4 import BeautifulSoup
 
-# # 恣伏
-# client_id = "wx00c3b7d9db7553a0"
-# client_secret = "cc793a572170ea90746d68d6944f2e89"
-# grant_type = "client_credential"
-
-# 宋荣子
-client_id = "wx772b83593792d05d"
-client_secret = "ebd08472eb399be190686975b02485ba"
+client_id = "你的appid"
+client_secret = "你的appsecret"
 grant_type = "client_credential"
 
 # 获得access_token
