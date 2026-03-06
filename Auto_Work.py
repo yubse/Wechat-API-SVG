@@ -16,14 +16,9 @@ from watchdog.events import FileSystemEventHandler
 # 全局变量存储图片信息
 image_info = []
 # 恣伏
-client_id = "wx00c3b7d9db7553a0"
-client_secret = "782415b7aa6a62098cf21e2fbafb4614"
+client_id = "填入你的appid"
+client_secret = "填入你的appsecret"
 grant_type = "client_credential"
-
-# # 宋荣子
-# client_id = "wx772b83593792d05d"
-# client_secret = "ebd08472eb399be190686975b02485ba"
-# grant_type = "client_credential"
 
 import requests
 from bs4 import BeautifulSoup
@@ -1354,3 +1349,4 @@ notebook.pack(expand=True, fill="both")
 
 # 运行主循环
 root.mainloop()
+
